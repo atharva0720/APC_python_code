@@ -13,4 +13,4 @@ with open(output_file, "w") as output:
         if not stripped.startswith("#"):
             output.write(line)
 
-print("Comments removed successfully.")\n
+print("Comments removed successfully.")

@@ -6,4 +6,4 @@ with open("student.txt", "w") as file:
     file.write("Branch: CSE\n")
     file.write("Semester: 5\n")
 
-print("Student details written successfully.")\n
+print("Student details written successfully.")

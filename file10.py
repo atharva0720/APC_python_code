@@ -23,4 +23,4 @@ for ch in text:
 print("Alphabets:", alphabets)
 print("Digits:", digits)
 print("Spaces:", spaces)
-print("Special characters:", special)\n
+print("Special characters:", special)

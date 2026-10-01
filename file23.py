@@ -17,4 +17,4 @@ else:
     for i, (line1, line2) in enumerate(zip(lines1, lines2), start=1):
         if line1 != line2:
             print("First difference at line:", i)
-            break\n
+            break

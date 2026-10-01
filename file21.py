@@ -83,4 +83,4 @@ while True:
     elif choice == "6":
         break
     else:
-        print("Invalid choice.")\n
+        print("Invalid choice.")

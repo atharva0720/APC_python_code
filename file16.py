@@ -9,4 +9,4 @@ with open(source_file, "r") as source:
 with open(output_file, "w") as output:
     output.write(text.upper())
 
-print("Uppercase file created successfully.")\n
+print("Uppercase file created successfully.")

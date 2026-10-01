@@ -15,4 +15,4 @@ with open(output_file, "w") as output:
     output.write("\n")
     output.write(text2)
 
-print("Files merged successfully.")\n
+print("Files merged successfully.")
