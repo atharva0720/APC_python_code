@@ -5,9 +5,9 @@ import pandas as pd
 employee_salary = {
     "Atharva": 55000,
     "Aniket": 48000,
-    "Sneha": 72000,
-    "Priya": 45000,
-    "Rohit": 65000,
+    "Sudarshan": 72000,
+    "Sanjana": 45000,
+    "Payal": 65000,
 }
 
 series = pd.Series(employee_salary)
