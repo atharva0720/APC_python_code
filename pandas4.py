@@ -29,4 +29,3 @@ print("\nPatients with medical charges greater than 50000:")
 print(df[df["Medical_Charges"] > 50000])
 
 
-# ============================================================
