@@ -4,11 +4,12 @@
 import pandas as pd
 employee_salary = {
     "Atharva": 55000,
-    "Aniket": 48000,
-    "Sudarshan": 72000,
+    "Aniket": 300,
+    "Sudarshan":5000,
     "Sanjana": 45000,
-    "Payal": 65000,
+    "Tanisha": 65000,
 }
+
 
 series = pd.Series(employee_salary)
 
@@ -26,6 +27,5 @@ print(series.mean())
 
 print("\nEmployees earning more than 50000:")
 print(series[series > 50000])
-
 
 
