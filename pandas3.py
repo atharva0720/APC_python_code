@@ -23,4 +23,3 @@ print("\nProduct with highest total sales:")
 print(df.loc[df["Total_Amount"].idxmax()])
 
 
-# ============================================================
