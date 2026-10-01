@@ -9,4 +9,4 @@ if words:
     longest = max(words, key=len)
     print("Longest word:", longest)
 else:
-    print("File is empty.")
+    print("File is empty.")\n

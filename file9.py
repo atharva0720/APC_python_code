@@ -16,4 +16,4 @@ for ch in text:
             consonants += 1
 
 print("Vowels:", vowels)
-print("Consonants:", consonants)
+print("Consonants:", consonants)\n

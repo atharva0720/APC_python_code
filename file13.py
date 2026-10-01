@@ -16,4 +16,4 @@ with open(filename, "r") as file:
             lines_found.append(line_no)
 
 print("Occurrences:", count)
-print("Line numbers:", lines_found)
+print("Line numbers:", lines_found)\n

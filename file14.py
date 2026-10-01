@@ -12,4 +12,4 @@ text = text.replace(old_word, new_word)
 with open(filename, "w") as file:
     file.write(text)
 
-print("Word replaced successfully.")
+print("Word replaced successfully.")\n

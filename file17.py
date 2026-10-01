@@ -34,4 +34,4 @@ print("\nAverage Marks:", average)
 print("\nStudents scoring more than 80:")
 for student in students:
     if student[2] > 80:
-        print(student)
+        print(student)\n

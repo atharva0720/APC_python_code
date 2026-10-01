@@ -21,4 +21,4 @@ with open(filename, "r") as file:
         print(name, "Attendance:", percentage, "%")
 
         if percentage < 75:
-            print("Below 75%")
+            print("Below 75%")\n

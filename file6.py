@@ -7,4 +7,4 @@ with open(filename, "r") as file:
 
 words = text.split()
 
-print("Total number of words:", len(words))
+print("Total number of words:", len(words))\n
