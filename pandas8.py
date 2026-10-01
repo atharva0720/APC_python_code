@@ -3,8 +3,8 @@
 
 import pandas as pd
 employee_salary = {
-    "Amit": 55000,
-    "Rahul": 48000,
+    "Atharva": 55000,
+    "Aniket": 48000,
     "Sneha": 72000,
     "Priya": 45000,
     "Rohit": 65000,
@@ -13,6 +13,7 @@ employee_salary = {
 series = pd.Series(employee_salary)
 
 print(series)
+
 
 print("\nHighest Salary:")
 print(series.max())
@@ -25,3 +26,6 @@ print(series.mean())
 
 print("\nEmployees earning more than 50000:")
 print(series[series > 50000])
+
+
+

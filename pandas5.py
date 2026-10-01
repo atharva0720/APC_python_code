@@ -30,5 +30,3 @@ print(df.loc[df["Final_Amount"].idxmax()])
 print("\nAverage order value:")
 print(df["Final_Amount"].mean())
 
-
-# ============================================================

@@ -12,7 +12,7 @@ attendance = {
 
 df = pd.DataFrame(attendance)
 
-print("\nQUESTION 6")
+print("\nCalulaing the Attentance")
 
 df["Attendance_Percentage"] = (
     df["Classes_Attended"] / df["Total_Classes"]
@@ -24,4 +24,3 @@ print("\nStudents with attendance below 75%:")
 print(df[df["Attendance_Percentage"] < 75])
 
 
-# ============================================================
