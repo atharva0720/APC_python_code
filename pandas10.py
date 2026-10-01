@@ -1,12 +1,8 @@
 # QUESTION 10
 # Create a Pandas Series using a dictionary where patient IDs
-# are the index and patient ages are the values.
-# Perform:
-# 1. Find average age.
-# 2. Find oldest patient.
-# 3. Find youngest patient.
-# 4. Display patients above 60 years.
-# ============================================================
+
+import pandas as pd
+
 
 patient_ages = {
     101: 65,

@@ -1,15 +1,7 @@
 # QUESTION 14
-# Dataset: patients.csv
-# Columns:
-# Patient_ID, Name, Age, Gender, Disease, Medical_Expense
-#
-# Read the CSV file and:
-# 1. Display patients above 60 years.
-# 2. Calculate average medical expense.
-# 3. Find patient with highest medical expense.
-# 4. Count patients for each disease.
-# 5. Display patients whose medical expense exceeds 50,000.
-# ============================================================
+
+
+import pandas as pd
 
 df = pd.read_csv("patients.csv")
 

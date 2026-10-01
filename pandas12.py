@@ -1,16 +1,7 @@
 # QUESTION 12
-# Dataset: students.csv
-# Columns:
-# Student_ID, Name, Department, Python, DBMS, Maths
-#
-# Read students.csv using Pandas and perform:
-# 1. Display first 5 records.
-# 2. Display last 5 records.
-# 3. Find total and average marks of each student.
-# 4. Display students whose average marks are greater than 75.
-# 5. Find student with highest average.
-# 6. Find average marks for each subject.
-# ============================================================
+
+
+import pandas as pd
 
 df = pd.read_csv("students.csv")
 

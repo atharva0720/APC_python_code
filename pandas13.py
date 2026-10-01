@@ -1,15 +1,8 @@
 # QUESTION 13
 # Dataset: employees.csv
-# Columns:
-# Employee_ID, Name, Department, Experience, Salary
-#
-# Read the CSV file and:
-# 1. Display employees from the CSE department.
-# 2. Find average salary.
-# 3. Find highest and lowest salary.
-# 4. Display employees having salary greater than 50,000.
-# 5. Calculate department-wise average salary.
-# ============================================================
+
+
+import pandas as pd
 
 df = pd.read_csv("employees.csv")
 
