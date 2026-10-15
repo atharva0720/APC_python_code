@@ -21,4 +21,4 @@ class Tester(Employee):
 
 
 for employee in [Manager(), Developer(), Tester()]:
-    print("Salary:", employee.calculate_salary())\n
+    print("Salary:", employee.calculate_salary())

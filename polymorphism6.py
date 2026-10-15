@@ -25,4 +25,4 @@ for student in [
     MedicalStudent(),
     ManagementStudent()
 ]:
-    print(student.calculate_grade(72))\n
+    print(student.calculate_grade(72))

@@ -23,4 +23,4 @@ class Administrator(Person):
 people = [Student(), Faculty(), Administrator()]
 
 for person in people:
-    person.display_role()\n
+    person.display_role()

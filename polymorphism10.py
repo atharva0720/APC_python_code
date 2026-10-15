@@ -16,4 +16,4 @@ s1 = Student("Amit", 85)
 s2 = Student("Rahul", 78)
 
 print("Amit > Rahul:", s1 > s2)
-print("Amit < Rahul:", s1 < s2)\n
+print("Amit < Rahul:", s1 < s2)

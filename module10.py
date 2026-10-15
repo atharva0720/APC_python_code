@@ -10,4 +10,4 @@ cleaned = clean_text(text)
 
 print("Cleaned:", cleaned)
 print("Tokens:", tokenize(cleaned))
-print("Frequency:", word_frequency(cleaned))\n
+print("Frequency:", word_frequency(cleaned))

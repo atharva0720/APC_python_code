@@ -6,4 +6,4 @@ from faculty.details import faculty_details
 
 print(student_details())
 print(student_marks())
-print(faculty_details())\n
+print(faculty_details())

@@ -19,4 +19,4 @@ d1 = Distance(5, 8)
 d2 = Distance(3, 6)
 
 d3 = d1 + d2
-d3.display()\n
+d3.display()

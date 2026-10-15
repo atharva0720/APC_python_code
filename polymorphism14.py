@@ -21,4 +21,4 @@ class Podcast(Media):
 
 
 for media in [Audio(), Video(), Podcast()]:
-    media.play()\n
+    media.play()

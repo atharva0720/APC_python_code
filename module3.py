@@ -7,4 +7,4 @@ number = int(input("Enter number: "))
 print("Prime:", is_prime(number))
 print("Palindrome:", is_palindrome(number))
 print("Armstrong:", is_armstrong(number))
-print("Perfect:", is_perfect(number))\n
+print("Perfect:", is_perfect(number))

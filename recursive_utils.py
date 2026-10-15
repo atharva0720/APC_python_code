@@ -16,4 +16,4 @@ def sum_digits(n):
 def binary(n):
     if n < 2:
         return str(n)
-    return binary(n // 2) + str(n % 2)\n
+    return binary(n // 2) + str(n % 2)

@@ -10,4 +10,4 @@ net = salary_utils.net_salary(gross, deduction)
 
 print("Gross Salary:", gross)
 print("Deductions:", deduction)
-print("Net Salary:", net)\n
+print("Net Salary:", net)

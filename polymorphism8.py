@@ -25,4 +25,4 @@ def create_report(report):
 
 
 for report in [PDFReport(), ExcelReport(), HTMLReport()]:
-    create_report(report)\n
+    create_report(report)

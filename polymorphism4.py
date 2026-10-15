@@ -26,4 +26,4 @@ class Lion(Animal):
 
 
 for animal in [Dog(), Cat(), Cow(), Lion()]:
-    animal.sound()\n
+    animal.sound()

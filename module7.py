@@ -17,4 +17,4 @@ print("Armstrong:", is_armstrong(153))
 print("Palindrome:", is_palindrome(121))
 print("Mean:", mean(numbers))
 print("Maximum:", maximum(numbers))
-print("Minimum:", minimum(numbers))\n
+print("Minimum:", minimum(numbers))

@@ -8,4 +8,4 @@ from records.details import medical_records
 print(patient_details())
 print(doctor_details())
 print(billing_details())
-print(medical_records())\n
+print(medical_records())

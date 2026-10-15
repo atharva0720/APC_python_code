@@ -16,4 +16,4 @@ p1 = Product("Laptop", 60000)
 p2 = Product("Mobile", 30000)
 
 print("Equal:", p1 == p2)
-print("Laptop > Mobile:", p1 > p2)\n
+print("Laptop > Mobile:", p1 > p2)

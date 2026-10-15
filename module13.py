@@ -8,4 +8,4 @@ from payments.details import payment_details
 print(product_details())
 print(customer_details())
 print(order_details())
-print(payment_details())\n
+print(payment_details())

@@ -6,4 +6,4 @@ from transactions.details import transaction_details
 
 print(book_details())
 print(member_details())
-print(transaction_details())\n
+print(transaction_details())

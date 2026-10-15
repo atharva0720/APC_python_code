@@ -1,2 +1,2 @@
 def transaction_details():
-    return "Transaction: Book issued"\n
+    return "Transaction: Book issued"

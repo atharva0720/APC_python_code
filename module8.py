@@ -12,4 +12,4 @@ percent = percentage(marks)
 print("Total:", total_marks)
 print("Percentage:", percent)
 print("Grade:", grade(percent))
-print("Attendance Eligible:", eligible(80))\n
+print("Attendance Eligible:", eligible(80))

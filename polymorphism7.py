@@ -25,4 +25,4 @@ for account in [
     CurrentAccount(),
     FixedDepositAccount()
 ]:
-    print("Interest:", account.calculate_interest(50000))\n
+    print("Interest:", account.calculate_interest(50000))

@@ -13,4 +13,4 @@ deposit(account, 5000)
 withdraw(account, 2000)
 
 print("Final Balance:", balance(account))
-print("Loan Amount:", loan_amount(100000, 10, 2))\n
+print("Loan Amount:", loan_amount(100000, 10, 2))

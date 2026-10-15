@@ -29,4 +29,4 @@ for payment in [
     CardPayment(),
     WalletPayment()
 ]:
-    pay(payment, 1000)\n
+    pay(payment, 1000)

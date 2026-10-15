@@ -25,4 +25,4 @@ for notification in [
     SMSNotification(),
     PushNotification()
 ]:
-    notification.send()\n
+    notification.send()

@@ -42,4 +42,4 @@ class TV(SmartDevice):
 
 for device in [Light(), Fan(), AC(), TV()]:
     device.turn_on()
-    device.turn_off()\n
+    device.turn_off()

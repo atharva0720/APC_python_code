@@ -11,4 +11,4 @@ for word in words:
     word = word.strip(".,!?;:")
     frequency[word] = frequency.get(word, 0) + 1
 
-print(frequency)\n
+print(frequency)
