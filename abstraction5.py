@@ -42,4 +42,4 @@ for patient in [
     EmergencyPatient()
 ]:
     print("Bill:", patient.calculate_bill())
-    patient.treatment()\n
+    patient.treatment()

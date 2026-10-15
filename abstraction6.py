@@ -29,4 +29,4 @@ class Flight(Transport):
 
 
 for transport in [Bus(), Train(), Taxi(), Flight()]:
-    print("Fare:", transport.calculate_fare(100))\n
+    print("Fare:", transport.calculate_fare(100))

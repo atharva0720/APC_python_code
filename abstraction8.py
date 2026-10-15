@@ -28,4 +28,4 @@ for auth in [
     OTPAuthentication(),
     BiometricAuthentication()
 ]:
-    auth.authenticate()\n
+    auth.authenticate()

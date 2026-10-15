@@ -38,4 +38,4 @@ class Bus(Vehicle):
 
 for vehicle in [Car(), Bike(), Bus()]:
     vehicle.start()
-    vehicle.stop()\n
+    vehicle.stop()

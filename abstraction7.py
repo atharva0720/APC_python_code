@@ -25,4 +25,4 @@ class DescriptiveQuestion(Question):
 
 print("MCQ:", MCQQuestion().evaluate_answer("A"))
 print("True/False:", TrueFalseQuestion().evaluate_answer("True"))
-print("Descriptive:", DescriptiveQuestion().evaluate_answer("This is an answer"))\n
+print("Descriptive:", DescriptiveQuestion().evaluate_answer("This is an answer"))

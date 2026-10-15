@@ -31,4 +31,4 @@ storage = GoogleDrive()
 
 storage.upload_file()
 storage.download_file()
-storage.delete_file()\n
+storage.delete_file()

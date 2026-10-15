@@ -42,4 +42,4 @@ for appointment in [
     EmergencyAppointment()
 ]:
     appointment.book_appointment()
-    print("Fee:", appointment.calculate_fee())\n
+    print("Fee:", appointment.calculate_fee())
