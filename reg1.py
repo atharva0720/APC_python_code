@@ -2,13 +2,12 @@
 
 import re
 
-def extract_digits(input_string):
-   
-    digits_list = re.findall(r'\d+', input_string)
-    return digits_list
+# Ask the user for input
+text = input("Enter a string: ")
 
-# Example usage:
-text = "In 2026, the population increased by 1500 people across 3 cities."
-result = extract_digits(text)
+# Find all individual digits
+digits = re.findall(r'\d', text)
 
-print("Extracted digits:", result)
+# Print the result
+print("Extracted digits:", digits)
+
