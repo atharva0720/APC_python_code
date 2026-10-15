@@ -23,4 +23,4 @@ class Triangle(Shape):
 
 
 for shape in [Circle(), Rectangle(), Triangle()]:
-    print("Area:", shape.area())\n
+    print("Area:", shape.area())
