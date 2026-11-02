@@ -1,1 +1,158 @@
 create exp 10
+import matplotlib.pyplot as plt
+import numpy as np
+
+# 1. Line Plot
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 15, 30, 25]
+plt.plot(x, y, marker='o')
+plt.title("Line Plot")
+plt.show()
+
+# 2. Bar Chart
+subjects = ['Python', 'Java', 'C++', 'PHP']
+marks = [85, 75, 90, 80]
+plt.bar(subjects, marks)
+plt.title("Bar Chart")
+plt.show()
+
+# 3. Horizontal Bar Chart
+names = ['A', 'B', 'C', 'D']
+marks = [80, 90, 70, 85]
+plt.barh(names, marks)
+plt.title("Horizontal Bar Chart")
+plt.show()
+
+# 4. Scatter Plot
+x = [1, 2, 3, 4, 5]
+y = [5, 10, 15, 20, 25]
+plt.scatter(x, y)
+plt.title("Scatter Plot")
+plt.show()
+
+# 5. Pie Chart
+labels = ['Python', 'Java', 'C++', 'PHP']
+values = [40, 30, 20, 10]
+plt.pie(values, labels=labels, autopct='%1.1f%%')
+plt.title("Pie Chart")
+plt.show()
+
+# 6. Histogram
+marks = [45, 50, 60, 65, 70, 75, 80, 85, 90]
+plt.hist(marks, bins=5, edgecolor='black')
+plt.title("Histogram")
+plt.show()
+
+# 7. Box Plot
+marks = [45, 55, 60, 65, 70, 75, 80, 90]
+plt.boxplot(marks)
+plt.title("Box Plot")
+plt.show()
+
+# 8. Area Plot
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 15, 30, 25]
+plt.fill_between(x, y, alpha=0.5)
+plt.title("Area Plot")
+plt.show()
+
+# 9. Stem Plot
+x = [1, 2, 3, 4, 5]
+y = [2, 5, 3, 7, 4]
+plt.stem(x, y)
+plt.title("Stem Plot")
+plt.show()
+
+# 10. Step Plot
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 15, 25, 30]
+plt.step(x, y)
+plt.title("Step Plot")
+plt.show()
+
+# 11. Heatmap
+data = np.array([[10, 20, 30],
+                 [40, 50, 60],
+                 [70, 80, 90]])
+plt.imshow(data, cmap='viridis')
+plt.colorbar()
+plt.title("Heatmap")
+plt.show()
+
+# 12. Subplots
+x = [1, 2, 3, 4]
+fig, ax = plt.subplots(1, 2)
+ax[0].plot(x, [2, 4, 6, 8])
+ax[0].set_title("Line Plot")
+ax[1].bar(x, [5, 3, 7, 4])
+ax[1].set_title("Bar Chart")
+plt.show()
+
+# 13. Sine Wave
+x = np.linspace(0, 2*np.pi, 100)
+y = np.sin(x)
+plt.plot(x, y)
+plt.title("Sine Wave")
+plt.show()
+
+# 14. Cosine Wave
+x = np.linspace(0, 2*np.pi, 100)
+y = np.cos(x)
+plt.plot(x, y)
+plt.title("Cosine Wave")
+plt.show()
+
+# 15. Stack Plot
+days = [1, 2, 3, 4, 5]
+study = [2, 3, 4, 2, 3]
+sleep = [8, 7, 6, 8, 7]
+plt.stackplot(days, study, sleep,
+              labels=['Study', 'Sleep'])
+plt.legend()
+plt.title("Stack Plot")
+plt.show()
+
+# 16. Error Bar Plot
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 30, 40, 50]
+error = [2, 3, 2, 4, 3]
+plt.errorbar(x, y, yerr=error, fmt='o')
+plt.title("Error Bar Plot")
+plt.show()
+
+# 17. Violin Plot
+data = [[10, 20, 30, 40, 50],
+        [15, 25, 35, 45, 55]]
+plt.violinplot(data)
+plt.title("Violin Plot")
+plt.show()
+
+# 18. Contour Plot
+x = np.linspace(-5, 5, 100)
+y = np.linspace(-5, 5, 100)
+X, Y = np.meshgrid(x, y)
+Z = X**2 + Y**2
+plt.contourf(X, Y, Z)
+plt.colorbar()
+plt.title("Contour Plot")
+plt.show()
+
+# 19. 3D Surface Plot
+x = np.linspace(-5, 5, 50)
+y = np.linspace(-5, 5, 50)
+X, Y = np.meshgrid(x, y)
+Z = X**2 + Y**2
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.plot_surface(X, Y, Z, cmap='viridis')
+ax.set_title("3D Surface Plot")
+plt.show()
+
+# 20. Polar Plot
+theta = np.linspace(0, 2*np.pi, 100)
+r = 2 + np.cos(5*theta)
+plt.subplot(111, projection='polar')
+plt.plot(theta, r)
+plt.title("Polar Plot")
+plt.show()
